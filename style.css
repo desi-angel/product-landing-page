@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: #1F2937;
+}
+.container-1,
+.container-2{
+    margin: 0;
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 16px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 24px;
+}
+a{
+    color: #F9FAF8;
+    text-decoration: none;
+}
+.main-content{
+    
+    background-image: url(./Images/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #F9FAF8;
+    height: 500px;
+ 
+}
+p{
+    font-size: 20px;
+    width: 600px;
+    line-height: 2;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.container-2{
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 24px;
+    font-weight: 900;
+}
+.items{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+    
+}
+figure{
+    text-align: center;
+
+}
